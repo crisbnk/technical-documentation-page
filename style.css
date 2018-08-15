@@ -1,0 +1,45 @@
+:root {
+  --main-bg-color: #f7a072;
+  --secondary-bg-color: #d9e5d6;
+  --main-font-size: 14px;
+  --main-font-color: #000000;
+  --main-border-color: #00a7e1;
+}
+
+body {
+  font-family: 'Josefin Slab', serif;
+  font-size: var(--main-font-size);
+  color: var(--main-font-color);
+  background-color: var(--main-bg-color);
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav#navbar {
+  flex-basis: 30%;
+}
+
+main#main-doc {
+  flex-basis: 70%;
+}
+
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+@media (max-width: 640px) {
+  nav#navbar {
+    visibility: collapse;
+  }
+
+  main#main-doc {
+    flex-basis: 100%;
+  }
+}
