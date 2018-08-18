@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: var(--main-font-size);
   color: var(--main-font-color);
   background-color: var(--main-bg-color);
@@ -23,7 +23,7 @@ a {
 }
 
 h1 {
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Montserrat', sans-serif;
   color: var(--secondary-font-color);
   text-align: center;
   margin: 0;
